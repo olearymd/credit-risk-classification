@@ -11,6 +11,7 @@ In this repo, we have code to test the ability of two logistic regression models
 - Total Debt
 
 The first model utilized the original data set and returned the following:
+<pre>
 
               precision    recall  f1-score   support
 
@@ -20,9 +21,11 @@ The first model utilized the original data set and returned the following:
     accuracy                           0.99     19384
    macro avg       0.94      0.94      0.94     19384
 weighted avg       0.99      0.99      0.99     19384
+</pre>
 
 The second model utilized a RandomOverSampler module for imbalanced datasets, and returned the following:
 
+<pre>
               precision    recall  f1-score   support
 
      Healthy       0.99      0.99      0.99     56277
@@ -31,6 +34,7 @@ The second model utilized a RandomOverSampler module for imbalanced datasets, an
     accuracy                           0.99    112554
    macro avg       0.99      0.99      0.99    112554
 weighted avg       0.99      0.99      0.99    112554
+</pre>
 
 # Summary
 
